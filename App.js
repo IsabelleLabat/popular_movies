@@ -13,7 +13,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name={"Popular Movies"} component={PopularMovies} />
-        <Stack.Screen name={"Movies"} component={Movie} />
+        <Stack.Screen name={"Movie"} component={Movie} />
       </Stack.Navigator>
     </NavigationContainer>
   );
